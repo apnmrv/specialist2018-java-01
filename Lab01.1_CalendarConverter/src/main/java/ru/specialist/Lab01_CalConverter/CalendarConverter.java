@@ -1,10 +1,10 @@
-package calendarconverter;
+package ru.specialist.Lab01_CalConverter;
 
 public class CalendarConverter {
 
     public static void main(String[] args) {
-       int year=1999;
-        int dayNum =165;
+        int year = 1999;
+        int dayNum = 165;
         int [] daysInMonths={
             31,
             28,
@@ -42,7 +42,7 @@ public class CalendarConverter {
                 if (isLeapYear && d==28) ++d;
                 if (dayNum <= d) break;
                 
-                dayNum -=   d;
+                dayNum -= d;
                 monthNum++;
             }        
         sb = sb.append(months[monthNum]).append(", ").append(dayNum).append(".");
