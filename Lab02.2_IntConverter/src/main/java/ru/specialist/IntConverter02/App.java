@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package intconverter;
+package ru.specialist.IntConverter02;
 
 /**
  *
  * @author pandrey
  */
-public class Intconverter {
+public class App {
 
     /**
      * @param args the command line arguments

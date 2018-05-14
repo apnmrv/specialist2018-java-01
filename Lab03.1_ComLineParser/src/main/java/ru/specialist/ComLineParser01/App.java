@@ -1,6 +1,6 @@
-package comlineparser;
+package ru.specialist.ComLineParser01;
 
-public class Main {
+public class App {
 
     /**
      * @param args the command line arguments

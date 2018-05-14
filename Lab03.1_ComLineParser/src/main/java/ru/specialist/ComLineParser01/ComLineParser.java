@@ -1,4 +1,4 @@
-package comlineparser;
+package ru.specialist.ComLineParser01;
 /**
  *
  * @author Admin

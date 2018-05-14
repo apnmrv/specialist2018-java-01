@@ -1,5 +1,5 @@
 
-package comlineparser;
+package ru.specialist.ComLineParser02;
 
 public class SimpleParser extends ComLineParserBase {
     

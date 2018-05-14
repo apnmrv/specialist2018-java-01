@@ -1,4 +1,4 @@
-package comlineparser;
+package ru.specialist.ComLineParser02;
 
 public abstract class ComLineParserBase {
     private String[] keys;           // ключи

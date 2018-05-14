@@ -1,7 +1,7 @@
 
-package comlineparser;
+package ru.specialist.ComLineParser02;
 
-public class ComLineParser {
+public class App {
 
     public static void main(String[] args) {
         
