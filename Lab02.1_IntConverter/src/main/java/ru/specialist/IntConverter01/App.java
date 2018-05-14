@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package intconverter;
+package ru.specialist.IntConverter01;
 
 /**
  *
  * @author pandrey
  */
-public class Intconverter {
+public class App {
 
     /**
      * @param args the command line arguments
@@ -24,7 +24,7 @@ public class Intconverter {
         System.out.println(getBinaryByStringBuilderAppend(65004300));
     }
     
-    public static String getBinaryByString (int num){                           // Для упражнения. Не эффективен 
+    public static String getBinaryByString (int num){         // Для упражнения. Не эффективен
         String str = new String();
         for (int i = 0; i < 32; i++){
             if ( num%2 != 0 ) str = "1" + str; else str = "0" + str;
